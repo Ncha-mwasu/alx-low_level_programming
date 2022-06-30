@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main prints the sizes of various types
+ * main - prints the sizes of various types
  *
  * return: print sucessful (0)
  *
