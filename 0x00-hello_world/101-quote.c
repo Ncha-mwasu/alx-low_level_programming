@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include<unistd.h>
 /**
  * main - print text and gives a standart error
