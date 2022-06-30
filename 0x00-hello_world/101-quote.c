@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
  * main - print text and gives a standart error
  *
@@ -11,4 +12,3 @@ int main(void)
 	write(2, str1, 59)
 	return (1);
 }
-
