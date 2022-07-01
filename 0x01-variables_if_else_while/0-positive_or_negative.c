@@ -1,9 +1,11 @@
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
+
 /**
- * main - Positive anything is better than negative nothing
+ * main - Determines if a number n is positive, negative or zero.
  *
- * Return: print 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
