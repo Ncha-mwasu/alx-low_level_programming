@@ -7,11 +7,12 @@
  */
 void print_alphabet_x10(void)
 {
-	int x, y;
+	int x;
+	int y;
 
 	for (x = 0; x <= 9; x++)
 	{
-		for (y = 97; y <= 122; y++)
+		for (y = 'a'; y <= 'z'; y++)
 		{
 			putchar(y);
 		}
