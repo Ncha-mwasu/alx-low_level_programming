@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <main.h>
+#include "main.h"
 
 /**
 * main - Prints putchar with an underscore at the beginning.
@@ -15,9 +13,9 @@ int main(void)
 	xy = sizeof(str) / sizeof(int);
 	for (count = 0; count < xy; count++)
 	{
-		putchar(str[count]);
+		_putchar(str[count]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 
