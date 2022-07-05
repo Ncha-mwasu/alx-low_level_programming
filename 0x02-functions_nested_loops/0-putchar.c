@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <main.h>
 
 /**
 * main - Prints putchar with an underscore at the beginning.
