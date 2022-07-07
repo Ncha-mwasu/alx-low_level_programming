@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _isupper - checks if characters are letters in upper case.
