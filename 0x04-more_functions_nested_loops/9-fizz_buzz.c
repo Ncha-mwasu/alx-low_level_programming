@@ -6,10 +6,9 @@
  */
 int main(void)
 {
-	int x;
+	int x = 1;
 
-	x = 1;
-	printf("%d", n);
+	printf("%d", x);
 	for (x = 2; x <= 100; x++)
 	{
 		if ((x % 3 == 0) && (x % 5 == 0))
