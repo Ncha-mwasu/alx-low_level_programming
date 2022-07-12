@@ -1,30 +1,26 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - passwords for the program.
- *
- * Return: Always 0.
+ * main - generates keygen.
+ * Return: Always 0 (Success).
  */
 int main(void)
 {
-	int n;
+	int r = 0, c = 0;
+	time_t t;
 
-	n = _atoi("xd-xds5");
-	/*n = 1000000000;*/
-	printf("%d\n", n);
-	n = _atoi("-402");
-	printf("%d\n", n);
-	n = _atoi("          ------++++++-----+++++--98");
-	printf("%d\n", n);
-	n = _atoi("214748364");
-	printf("%d\n", n);
-	n = _atoi("0");
-	printf("%d\n", n);
-	n = _atoi("Suite 402");
-	printf("%d\n", n);
-	n = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
-	printf("%d\n", n);
-	n = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-	printf("%d\n", n);
+	srand((unsigned int) time(&t));
+	while (c < 2772)
+	{
+		r = rand() % 128;
+		if ((c + r) > 2772)
+			break;
+		c = c + r;
+		printf("%c", r);
+	}
+	printf("%c\n", (2772 - c));
 	return (0);
 }
