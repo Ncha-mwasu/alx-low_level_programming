@@ -2,9 +2,8 @@
 #include "lists.h"
 
 /**
- * printf - prints senntence.
  * first - function executed before main.
- * Return: n return.
+ * Return: no return.
  */
 void __attribute__ ((constructor)) first()
 {
