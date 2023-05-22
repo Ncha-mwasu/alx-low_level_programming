@@ -1,0 +1,5 @@
+int add(int a, int b);
+  25 int sub(int a, int b);
+  26 int mul(int a, int b);
+  27 int div(int a, int b);
+  28 int mod(int a, int b);
